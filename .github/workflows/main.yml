@@ -5,9 +5,9 @@ on:
     branches: 
       - main
 
-jobs:
+jobss:
   testing:
-    runs-on: ubuntu-qwerty
+    runs-on: ubuntu-latest
     
     steps:
       - name: Print Hello Message in Testing
