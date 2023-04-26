@@ -1,1 +1,14 @@
-name: GRADLE-DEMO
+name: GRADLE_DEMO
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  testing:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print Hello Message in Testing
+        run : echo "Hello World"
